@@ -85,7 +85,7 @@
 }
 
 .main_text {
-    min-width: 480px;
+    max-width: 480px;
     font-size: 2rem;
     color: white;
     line-height: 1.1;

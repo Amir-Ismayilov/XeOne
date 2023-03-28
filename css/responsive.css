@@ -1,0 +1,53 @@
+/*Разрешение экрана-1080px*/
+@media screen and (max-width: 1080px) {
+    .card {
+        max-width: 270px;
+    }
+}
+
+
+/*Разрешение экрана-844pxx*/
+@media screen and (max-width: 844px) {
+    .card {
+        padding: 0 20px;
+        min-width: 100%;
+        z-index: 2;
+    }
+
+    .section_cards > ._container {
+        padding: 0;
+    }
+
+    .section_photo {
+        filter: grayscale(0.2);
+    }
+
+    .services {
+    padding: 30px 0;
+    }
+
+    .services_text {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .services_image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .services_text>p{
+        margin: 20px 0;
+    }
+}
+
+
+/*Разрешение экрана-468px*/
+@media screen and (max-width: 527px) {
+    .services_image img {
+        max-width: 300px;
+    }
+}
